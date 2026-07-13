@@ -214,7 +214,7 @@ int encode_file(const char *input_file)
         {
             c = buffer[i];
 
-            if (c == ' ' || c == '\n' || c == '\r' || c == '\t')
+            if (c == ' ' || c == '\n' || c == '\r')
             {
                 if (has_output == 1)
                 {
